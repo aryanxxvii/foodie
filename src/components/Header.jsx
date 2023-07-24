@@ -13,7 +13,10 @@ export const Header = () => {
             to="/"
             className="toggleColor text-orange-400 pl-4 no-underline hover:no-underline font-bold font-dosis text-2xl lg:text-4xl"
           >
-            F<span className="text-yellow-400 tracking-[-0.2em] pr-2">oo</span>
+            F
+            <span className="text-yellow-400 tracking-[-0.15em] pr-1.5">
+              oo
+            </span>
             die
           </Link>
         </div>

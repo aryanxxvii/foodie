@@ -5,9 +5,11 @@ export const Banner = () => {
     <div className="banner w-full md:w-2/3 px-7 mx-auto relative flex items-center-justify-between">
       <div className="banner-description w-full flex content-center flex-wrap md:w-1/2 p-3">
         <div className="mb-6">
-          <h2 className=" text-6xl font-bold text-orange-400 font-dosis">
+          <h2 className="text-6xl font-bold text-orange-400 font-dosis">
             F
-            <span className="text-yellow-400 tracking-[-0.2em] pr-3.5">oo</span>
+            <span className="text-yellow-400 tracking-[-0.15em] pr-3.5">
+              oo
+            </span>
             d Ordering Made Easy
           </h2>
           <p className="font-semibold text-lg text-gray-500 py-2">
@@ -25,7 +27,7 @@ export const Banner = () => {
           </a>
         </div>
       </div>
-      <div className="banner-image w-full md:w-1/2 p-3 flex justify-end">
+      <div className="bg-hero-blob bg-cover bg-center bg-scale-100 banner-image w-full md:w-1/2 p-3 flex justify-end">
         <img src={heroImg} alt="banner" className="max-h-95" />
       </div>
     </div>

@@ -7,7 +7,11 @@ export default {
       dosis: ["Dosis", "sans-serif"],
       inter: ["Inter", "sans-serif"],
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        "hero-blob": "url('/src/assets/images/blob-haikei.svg')",
+      },
+    },
   },
   plugins: [],
 }
