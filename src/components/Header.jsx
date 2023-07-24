@@ -11,7 +11,7 @@ export const Header = () => {
             className="toggleColor text-orange-400 pl-4 no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
           >
             F<span className="text-yellow-400 tracking-[-0.2em] pr-2">oo</span>
-            die
+            der
           </Link>
         </div>
         <div className="nav-menu-wrapper flex items-center justify-between space-x-10">
