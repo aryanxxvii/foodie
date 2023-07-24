@@ -3,6 +3,10 @@ export default {
   content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"],
 
   theme: {
+    fontFamily: {
+      dosis: ["Dosis", "sans-serif"],
+      inter: ["Inter", "sans-serif"],
+    },
     extend: {},
   },
   plugins: [],

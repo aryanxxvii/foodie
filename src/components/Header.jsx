@@ -3,15 +3,18 @@ import { ShoppingCartOutlined } from "@mui/icons-material"
 import { Link } from "react-router-dom"
 export const Header = () => {
   return (
-    <nav id="header" className="bg-white text-orange-400 rounded-b-xl">
+    <nav
+      id="header"
+      className="bg-white text-orange-500 rounded-b-xl shadow-lg shadow-orange-100/75"
+    >
       <div className="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
         <div className="logo-wrapper pl-4 flex items-center">
           <Link
             to="/"
-            className="toggleColor text-orange-400 pl-4 no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
+            className="toggleColor text-orange-400 pl-4 no-underline hover:no-underline font-bold font-dosis text-2xl lg:text-4xl"
           >
             F<span className="text-yellow-400 tracking-[-0.2em] pr-2">oo</span>
-            der
+            die
           </Link>
         </div>
         <div className="nav-menu-wrapper flex items-center justify-between space-x-10">

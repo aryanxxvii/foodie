@@ -3,7 +3,7 @@ import Navigation from "./navigation/index"
 
 function App() {
   return (
-    <div className="App">
+    <div className="App font-dosis">
       <Navigation />
     </div>
   )
