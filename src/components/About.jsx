@@ -5,7 +5,7 @@ export const About = () => {
     <div className="bg-white">
       <div className="p-24 grid grid-cols-2">
         <div className="">
-          <h2 className="text-2xl text-orange-400 mb-10 font-medium">
+          <h2 className="text-2xl font-bold text-orange-400 mb-10 ">
             About Us
           </h2>
           <p className="text-lg">

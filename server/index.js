@@ -7,7 +7,7 @@ const db = require("./db")
 const app = express()
 const productRouter = require("./routes/productRouter")
 var corsOptions = {
-  origin: "http://localhost:3000",
+  origin: "http://localhost:5173",
 }
 
 app.use(cors(corsOptions))
