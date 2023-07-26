@@ -1,8 +1,17 @@
 import Button from "./elements/Button"
-
-const ProductDetailCard = ({ product, onAddProduct }) => {
+import { addToCart } from "../stores/cart/cartSlice"
+import { useDispatch } from "react-redux"
+const ProductDetailCard = ({ product }) => {
+  const dispatch = useDispatch()
+  const addProduct = () => {
+    dispatch(addToCart(product))
+    console.log(product)
+  }
+  // const test = () => {
+  //   console.log("test")
+  // }
   return (
-    <div className="p-8 my-12 mx-24 rounded-lg bg-slate-100">
+    <div className="rounded-lg p-8 bg-slate-100">
       <div className="flex flex-col items-center justify-between">
         <h2 className="text-3xl pb-4">{product.name}</h2>
         <p className="text-xl text-gray-600 pb-4">{product.description}</p>
@@ -18,7 +27,7 @@ const ProductDetailCard = ({ product, onAddProduct }) => {
         />
       </div>
       <div className="w-full flex items-center justify-center">
-        <Button onCick={onAddProduct}>Add to Cart</Button>
+        <Button onClick={addProduct}>Add to Cart</Button>
       </div>
     </div>
   )

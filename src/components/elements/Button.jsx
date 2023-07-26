@@ -14,9 +14,9 @@ const sizes = {
 }
 
 const variants = {
-  primary: "bg-orange-400 focus:ring-marigold",
-  secondary: "bg-tomato focus:ring-tomato",
-  dark: "bg-black focus:ring-white",
+  primary: "bg-orange-400 hover:scale-[1.05]",
+  secondary: "bg-tomato hover:scale-[1.05]",
+  dark: "bg-black hover:scale-[1.05]",
 }
 
 const Button = ({
