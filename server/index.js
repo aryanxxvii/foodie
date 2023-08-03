@@ -8,7 +8,7 @@ const db = require("./db")
 const app = express()
 const productRouter = require("./routes/productRouter")
 var corsOptions = {
-  origin: "http://localhost:5173",
+  origin: "https://foo-die.netlify.app/",
 }
 
 app.use(cors(corsOptions))
