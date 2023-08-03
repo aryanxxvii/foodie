@@ -30,7 +30,7 @@ export const fetchProducts = createAsyncThunk(
   async () => {
     try {
       const response = await fetch(
-        "http://localhost:8080/api/products-by-categories"
+        "https://foodie-bxyn.onrender.com/api/products-by-categories"
       )
       const data = await response.json()
       return data

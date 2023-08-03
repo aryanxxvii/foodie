@@ -1,5 +1,5 @@
 const mongoose = require("mongoose")
-const mongoUri = require("../db.config").uri
+const mongoUri = process.env.DB_URI
 mongoose.connect(`${mongoUri}`, { useNewUrlParser: true }).catch((e) => {
   console.error("Connection error", e.message)
 })
