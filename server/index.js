@@ -8,7 +8,7 @@ const db = require("./db")
 const app = express()
 const productRouter = require("./routes/productRouter")
 var corsOptions = {
-  origin: "https://foo-die.netlify.app/",
+  origin: "https://foo-die.netlify.app",
 }
 
 app.use(cors(corsOptions))
